@@ -4,7 +4,7 @@ const Pagination = () => {
         <>  <div className="des-only"> 
             <div className="pagination ">
                 <img className="arrow-logo" src="arrowfirst.png" alt="Logo" />
-                <div className="pageNo">1</div>
+                <div className="pageNo no1">1</div>
                 <div className="pageNo">2</div>
                 <div className="pageNo">3</div>
                 <div className="pageNo">4</div>

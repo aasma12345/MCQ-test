@@ -12,7 +12,7 @@
 .header-box {
     display: flex;
     width: 1200px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: auto;
     text-align: center;
 }
@@ -24,7 +24,7 @@
         height: 146px;
         margin: auto;
         text-align: center;
-        /* border:none; */
+        border:none;
     }
 }
 
@@ -66,6 +66,7 @@
 @media (max-width: 560px) {
     .pagination {
         width: 360px;
+        display: flex;
         /* border: 1px solid black; */
         justify-content: center;
         text-align: center;
@@ -92,13 +93,21 @@
 
 .pageNo {
     border: 2px solid #E0DFDA;
-    width: 28px;
-    height: 28px;
+    width: 30px;
+    height: 30;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 50%;
     margin-left: 16px;
+    font-size: 14px;
+}
+.no1{
+    background:  #4C4B49;
+    color: white;
+    border: 1px solid  #4C4B49;
+    width: 30px;
+    height: 30px;
 }
 
 @media(max-width: 560px) {
@@ -112,13 +121,13 @@
     }
 
     .pageNo{
+        display: flex;
         justify-content: center;
         align-items: center;
         margin-left: 26px;
     }
 
     .pointer {
-        height: 30px;
         width: 30px;
         background: #4C4B49;
         color:  #EBE9E6;
@@ -127,10 +136,14 @@
     }
     .previous{
         margin-left: 0px;
+        border: none;
     }
     .top{
         border-top: 1px solid black;
         width: 100%;
+    }
+    .next{
+        border: none;
     }
 }
 
@@ -150,6 +163,7 @@
     margin-left: 72px;
 }
 
+
 .arrow-logo {
     width: 32px;
     height: 32px;
@@ -163,14 +177,14 @@
     margin: auto;
     margin-bottom: 136px;
     position: relative;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 @media (max-width: 560px) {
     .content-box {
         display: block;
         max-width: 360px;
-        border: 1px solid black;
+        /* border: 1px solid black; */
 
     }
 }
@@ -295,6 +309,7 @@
     width: 284px;
     height: 375px;
     /* border: 1px solid black; */
+    border: 1px dashed #777671;
     margin-top: 180px;
     background: #F9F7F2;
     border-radius: 12px;
